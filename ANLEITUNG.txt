@@ -1,0 +1,27 @@
+VOCABULA – Latein-App fürs iPhone (läuft ohne Claude, ohne Konto, offline)
+
+1) EINMALIG ONLINE STELLEN (kostenlos, z. B. mit GitHub Pages)
+   - Auf github.com ein kostenloses Konto anlegen.
+   - Neues Repository anlegen, z. B. "vocabula", Sichtbarkeit "Public".
+   - "Add file" → "Upload files" → den INHALT dieses Ordners hineinziehen
+     (index.html, app.js, sw.js, … und die Ordner data, icons, vendor).
+     Am Computer lassen sich Ordner per Drag & Drop hochladen.
+   - Settings → Pages → Source: "Deploy from a branch", Branch "main", Ordner "/ (root)" → Save.
+   - Nach 1–2 Minuten ist die App unter https://<dein-name>.github.io/vocabula/ erreichbar.
+   Jeder andere Webspace mit HTTPS geht auch (z. B. Cloudflare Pages, Netlify).
+
+2) AUFS IPHONE
+   - Die Adresse in SAFARI öffnen.
+   - Teilen-Symbol → "Zum Home-Bildschirm".
+   - Die App ab jetzt immer über das Symbol auf dem Home-Bildschirm starten.
+   - Beim ersten Öffnen mit Internet kurz warten: Die App lädt alles (ca. 13 MB)
+     und funktioniert danach komplett offline.
+
+3) WICHTIG ZU DEN DATEN
+   - Lektionen, Notentabelle und Verlauf liegen nur auf diesem iPhone.
+   - Die Home-Bildschirm-App hat ihren eigenen Speicher (nicht derselbe wie Safari).
+   - Unter "Noten" → "Sicherung speichern" regelmäßig eine Kopie sichern.
+     Mit "Sicherung laden" kommen die Daten auf ein neues Gerät.
+
+Lizenzen: Tesseract OCR / tesseract.js (Apache 2.0), deutsches Wörterbuch aus
+german-nouns / Wiktionary (CC BY-SA 4.0).
